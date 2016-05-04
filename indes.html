@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Joke Button</title>
+  <style>
+  #btn {
+    color: black;
+
+    background-color: #ff9800;
+    border-color: #ff9800;
+    outline: none;
+    margin: 20px auto;
+
+  }
+
+  </style>
+</head>
+
+<body>
+  <center>
+    <button id="btn">Why did the cat put the letter "M" into the
+      fridge?</button>
+    </center>
+    <script>
+    document.getElementById('btn').onclick = function(event) {
+      alert("Because it turns \"ice\" into \"mice\"!");
+    };
+    </script>
+  </body>
+  </html>
